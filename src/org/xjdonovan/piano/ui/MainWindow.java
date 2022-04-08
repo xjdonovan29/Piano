@@ -34,10 +34,10 @@ public class MainWindow extends JFrame implements MouseListener, ActionListener{
 	private MidiChannel channel;
 	private int octave = 3;
 	
-	public MainWindow(List<Note> notes, Instrument[] intrument, MidiChannel channel) {
+	public MainWindow(List<Note> notes, Instrument[] instrument, MidiChannel channel) {
 		super("Piano");
 		this.notes = notes;
-		this.instrument = intrument;
+		this.instrument = instrument;
 		this.channel = channel;
 		keys = new ArrayList<PianoKey>(); 
 	}
